@@ -44,7 +44,7 @@ describe("something", function() {
 })
 ```
 
-## API Interface
+## API
 
 Checkmark builds on Chai's assertion library by adding just two methods:
 
