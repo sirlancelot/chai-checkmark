@@ -1,0 +1,27 @@
+{
+  "name": "chai-checkmark",
+  "version": "1.0.0",
+  "description": "A Chai plugin for counting assertions.",
+  "main": "chai-checkmark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint --exclude node_modules/ ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sirlancelot/chai-checkmark"
+  },
+  "keywords": [
+    "chai",
+    "chai-plugin"
+  ],
+  "author": "Matthew Pietz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirlancelot/chai-checkmark/issues"
+  },
+  "homepage": "https://github.com/sirlancelot/chai-checkmark",
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  }
+}
