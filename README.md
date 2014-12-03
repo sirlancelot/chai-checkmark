@@ -1,4 +1,4 @@
-# Chai Checkmark
+# Chai Checkmark [![][ci-develop]][travis-ci] [![][downloads]][npm]
 
 **Checkmark** is a [Chai][] plugin for counting assertions made during a test.
 Often, when dealing with asynchronous tests, it can be difficult to determine
@@ -72,7 +72,12 @@ In short, to bring your Working Copy up to the tip of [develop][], you can use
 the rebase feature: `git pull --rebase`. See [Pull with Rebase][pull] for
 details.
 
-  [develop]: https://github.com/sirlancelot/chai-checkmark/tree/develop
-  [rebase]: http://darwinweb.net/articles/the-case-for-git-rebase
-  [pull]: http://gitready.com/advanced/2009/02/11/pull-with-rebase.html
   [Chai]: http://chaijs.com/
+  [ci-develop]: https://img.shields.io/travis/sirlancelot/chai-checkmark/develop.svg?style=flat-square
+  [ci-master]: https://img.shields.io/travis/sirlancelot/chai-checkmark/master.svg?style=flat-square
+  [develop]: https://github.com/sirlancelot/chai-checkmark/tree/develop
+  [downloads]: https://img.shields.io/npm/dm/chai-checkmark.svg?style=flat-square
+  [npm]: https://www.npmjs.org/package/chai-checkmark
+  [pull]: http://gitready.com/advanced/2009/02/11/pull-with-rebase.html
+  [rebase]: http://darwinweb.net/articles/the-case-for-git-rebase
+  [travis-ci]: https://travis-ci.org/sirlancelot/chai-checkmark
