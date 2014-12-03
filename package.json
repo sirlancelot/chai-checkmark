@@ -4,7 +4,7 @@
   "description": "A Chai plugin for counting assertions.",
   "main": "chai-checkmark.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "lint": "jshint --exclude node_modules/ ./"
   },
   "repository": {
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/sirlancelot/chai-checkmark",
   "devDependencies": {
-    "jshint": "^2.5.10"
+    "chai": "^1.10.0",
+    "jshint": "^2.5.10",
+    "mocha": "^2.0.1"
   }
 }
