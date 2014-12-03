@@ -37,7 +37,7 @@ describe("something", function() {
     "sync test".should.be.a("string").mark() // <-- check 1
 
     setTimeout(function() {
-        // check 2, callback is called after the current event finishes
+      // check 2, callback is called after the current event finishes
       "async test".should.be.a("string").mark()
     }, 500)
   })
