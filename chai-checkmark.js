@@ -25,7 +25,7 @@
 	// Chai Plugin Definition
 	return function chaiCheckmark(chai, util) {
 		var Assertion = chai.Assertion,
-			expect = chai.expect 
+			expect = chai.expect
 
 		function check(done) {
 			/*jshint validthis:true */

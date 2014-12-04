@@ -56,7 +56,7 @@ be called and optionally pass in a callback to be called when the number
 of marks is reached.
 
 ### `expect(str).to.be.a("string").mark()`
-  
+
 Add `.mark()` to the end of every assertion to which you want to have
 tracked by Checkmark. You can use any number of Chai's assertions,
 including `.and`, as long as you end your statement with `.mark()`.
