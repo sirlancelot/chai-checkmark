@@ -1,4 +1,4 @@
-# Chai Checkmark [![][ci-develop]][travis-ci] [![][downloads]][npm]
+# Chai Checkmark [![][ci-master]][travis-ci] [![][downloads]][npm]
 
 **Checkmark** is a [Chai][] plugin for counting assertions made during a test.
 Often, when dealing with asynchronous tests, it can be difficult to determine
