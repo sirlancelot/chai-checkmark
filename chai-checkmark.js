@@ -18,13 +18,14 @@
 	}
 }(this, function() {
 	"use strict";
-	var nextTick = this.setImmediate || setTimeout,
+	var nextTick = (typeof setImmediate === "function" ?
+			setImmediate : setTimeout),
 		noop = function() {}
 
 	// Chai Plugin Definition
 	return function chaiCheckmark(chai, util) {
 		var Assertion = chai.Assertion,
-			expect = chai.expect 
+			expect = chai.expect
 
 		function check(done) {
 			/*jshint validthis:true */
