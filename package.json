@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A Chai plugin for counting assertions.",
   "main": "chai-checkmark.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "mocha",
     "lint": "jshint --exclude node_modules/ ./"
